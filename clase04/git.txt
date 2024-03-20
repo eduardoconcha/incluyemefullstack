@@ -1,0 +1,38 @@
+1 crear cuenta de github
+2 crear nuevo repositorio
+
+repositorio local == mi pc
+repositorio remoto == github - gitlab - etc
+
+configuracion usuario y email (coincidir con github)
+* git config --global user.name "John Doe"
+* git config --global user.email johndoe@example.com
+
+
+comandos git
+
+
+* git status
+estado del repositorio
+rojo = aun no guardado en staged
+verde = guardado en staged
+
+
+* git init
+inicia repositorio
+
+* git add .
+agrega todo o guarda todo en el staged (punto intermedio del local y al remoto)
+
+
+* git commit -m 'comentario'
+prepara archivos para subir al remoto
+
+* git branch -M main (main rama)
+
+* git remote add origin http://git....
+se une al repositorio remoto
+
+* git push -u origin main
+sube los cambios guardados en el staged al remoto
+

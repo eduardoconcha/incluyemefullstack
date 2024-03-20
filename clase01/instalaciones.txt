@@ -1,0 +1,20 @@
+FullStack 1
+
+Clases Martes, Jueves, Viernes - 18:00 a 20:00 (Chile)
+Poryecto final - Ecommerce crud - solo o en equipos de 3
+
+Red social curso
+https://classroom.google.com/
+
+Link clases en vivo online
+https://meet.google.com/gxh-zmob-kgn?pli=1
+
+html - css - javascript - react - node -  express
+
+Instalaciones
+1 - Visual Studio Code (editor)
+https://code.visualstudio.com/
+
+2 - GIT
+https://git-scm.com/
+

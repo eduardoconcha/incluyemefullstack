@@ -1,0 +1,225 @@
+/*Resetea a cero los margenes*/
+*{    
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.navbar { /*css en clases */
+    background-color: dimgrey;
+    color: blue;
+    padding: 10px 0; /*arriba y abajo*/
+}
+
+
+.navbar2 {
+    background-color: red;
+    color: blue;
+    padding: 10px 0;
+}
+
+.navbar3 {
+    background-color: #fce1e4 ;
+    color: blue;
+    padding: 10px 0;
+}
+
+.navbar4 {
+    background-color: #d4afb9  ;
+    color: blue;
+    padding: 10px 0;
+}
+
+.navbar5 { /*para centrar texto de del menu*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white  ;
+    color: blue;
+    padding: 10px 0;
+    
+}
+
+/* fin propiedades basicas */
+
+
+/*Propiedades de container*/
+.container {    /*css en clases*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /*ancho max del contenerdor*/
+    margin: 0; /*todos los margenes en cero*/
+    padding: 0 20px; /*arriba y abajo*/
+}
+
+
+.container2 {
+    background-color: red; /*cambia color de fondo, solo de este container*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1200px; */
+    margin: 0;
+    padding: 50px; /*los cuatro lados agrega 50px*/
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1200px; */
+    /*No margin y paddin, texto alineados a los expremos*/
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1200px; */
+    margin: 0;
+    padding: 0;
+    border-style: dotted;
+}
+
+.container5 {
+    display: flex;       
+    align-items: center;
+    background-color: white  ;
+      
+}
+
+
+
+/*Fin propiedades de container*/
+
+
+/*Propiedades logo-texto*/
+.logo {
+    font-size: 24px;
+    text-decoration: none; /*elimina guiones bajo */
+    color: burlywood; /*color letra*/
+}
+
+.logo2 {
+    font-size: 24px;
+    text-decoration: none; /*elimina guiones bajo y puntos*/
+    color: black; /*color letra*/
+}
+
+.logo3 {
+    font-size: 24px;
+    text-decoration: none; /*elimina guiones bajo y puntos*/
+    color: #dc143c; /*color letra*/
+    margin-right: 300px;
+}
+
+.logo4 {
+    font-style: italic; /*estilo de letra*/
+    font-size: 50px;
+    text-decoration: none; /*elimina guiones bajo y puntos*/
+    color: #FF5733; /*color letra*/
+}
+
+/*Fin propiedades logo-texto*/
+
+
+
+/*Propiedades de links*/
+.nav-links {
+    list-style-type: none; /*elimina viñetas*/
+    display: flex; /*alinea horizontalmente los textos*/
+}
+
+.nav-links2 {
+    list-style-type: none; /*elimina viñetas*/
+    display: flex; /*alinea horizontalmente los textos*/
+}
+
+.nav-links3 {
+    list-style-type: none; /*elimina viñetas*/
+    display: flex; /*alinea horizontalmente los textos*/
+}
+
+.nav-links4 {
+    list-style-type: none; /*elimina viñetas*/
+    display: flex; /*alinea horizontalmente los textos*/
+}
+
+.nav-links5 {
+    list-style-type: none; /*elimina viñetas*/
+    display: flex; /*alinea horizontalmente los textos*/ 
+    background-color: white;  
+}
+
+/*Fin propiedades de links*/
+
+
+/*Propiedades de separacion de texto */
+.nav-links li { 
+    margin-right: 12px; /*le agrega espacio a los textos*/
+}
+
+.nav-links2 li { 
+    margin-right: 12px; /*le agrega espacio a los textos*/
+}
+
+.nav-links3 li { 
+    margin-right: 12px; /*le agrega espacio a los textos*/
+}
+
+.nav-links4 li { 
+    margin-right: 12px; /*le agrega espacio a los textos*/
+    
+}
+
+.nav-links5 li { 
+    margin-right: 80px; /*le agrega espacio a los textos*/
+        
+}
+
+/*Fin propiedades de separacion de texto */
+
+
+/*Propiedades del texto como tal*/
+.nav-links li a {
+    text-decoration: none; /*elimina guion bajo*/    
+}
+
+.nav-links2 li a {
+    text-decoration: none; /*elimina guion bajo*/    
+}
+
+.nav-links3 li a {
+    text-decoration: none; /*elimina guion bajo*/    
+}
+
+.nav-links4 li a {
+    text-decoration: line-through;  
+}
+
+.nav-links5 li a {
+    text-decoration: none; /*elimina guion bajo*/ 
+    color: black;
+    background-color: white; /*fondo blanco*/
+    font-family: Times, "Times New Roman", Georgia, serif;
+    font-size: 60px    ;
+    font-style: oblique;
+}
+
+/*Fin propiedades del texto como tal*/
+
+
+img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    /*margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px; */
+    margin: 15px 15px 0 15px;
+}
+
+
+
